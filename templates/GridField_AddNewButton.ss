@@ -1,2 +1,2 @@
 <% if $ClassField %>$ClassField.FieldHolder<% end_if %>
-<a href="{$NewLink}" class="ss-gridfield-{$Type.HTMLATT}--button ss-ui-action-constructive ss-ui-button" data-icon="add">$ButtonName</a>
+<a href="{$NewLink}" class="ss-gridfield-{$Type.HTMLATT}--button btn btn-primary font-icon font-icon-save">$ButtonName</a>

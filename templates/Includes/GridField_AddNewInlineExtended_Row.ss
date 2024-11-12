@@ -1,4 +1,4 @@
-$EditableColumns
+$EditableColumns.RAW
 
 <tr class="ss-gridfield-inline-new-extended--row<% if $EditableColumns %>
      ss-gridfield-inline-new-extended--row--has-columns<% if $OpenByDefault %> ss-gridfield-inline-new-extended--row--has-columns_open<% end_if %><% end_if %>"
@@ -21,8 +21,7 @@ $EditableColumns
     </td>
     <td class="ss-gridfield-inline-new-extended--buttons col-buttons">
         <% if not $EditableColumns %>
-            <button class="ss-gridfield-inline-new-extended--row-delete gridfield-button-delete ss-ui-button"
-                    data-icon="cross-circle"></button>
+            <button class="ss-gridfield-inline-new-extended--row-delete gridfield-button-delete ss-ui-button font-icon font-icon-trash"></button>
         <% end_if %>
     </td>
 </tr>

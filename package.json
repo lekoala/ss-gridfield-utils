@@ -1,8 +1,0 @@
-{
-  "name"        : "mwm.ss.gridfield-utils",
-  "private"     : true,
-  "dependencies": {
-    "bootstrap": "~3",
-    "font-awesome": "~4"
-  }
-}

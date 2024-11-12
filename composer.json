@@ -1,33 +1,40 @@
 {
-    "name"       : "milkyway-multimedia/ss-gridfield-utils",
+    "name": "lekoala/ss-gridfield-utils",
     "description": "A collection of GridField components that you can use with any GridField, including Editable Rows and amy more",
-    "type"       : "silverstripe-module",
-    "keywords"   : [
+    "type": "silverstripe-vendormodule",
+    "keywords": [
         "silverstripe",
         "utilities",
-        "mwm",
         "gridfield"
     ],
-    "license"    : "MIT",
-    "authors"    : [
+    "license": "MIT",
+    "authors": [
         {
-            "name" : "Mellisa Hankins",
+            "name": "Mellisa Hankins",
             "email": "mell@milkywaymultimedia.com.au"
+        },
+        {
+            "name": "LeKoala",
+            "email": "thomas@lekoala.be"
         }
     ],
-    "require"    : {
-        "php"                           : ">=5.4",
-        "silverstripe/framework"        : "~3.1",
-        "milkyway-multimedia/ss-mwm-env": "~0.3"
+    "require": {
+        "php": "^7.4 || ^8",
+        "silverstripe/recipe-plugin": "^1 || ^2",
+        "silverstripe/vendor-plugin": "^1 || ^2",
+        "silverstripe/framework": "^4.4 || ^5",
+        "symbiote/silverstripe-gridfieldextensions": "*"
     },
-    "suggest"    : {
-        "milkyway-multimedia/ss-mwm-formfields"     : "You can only use the RangeSlider with this module installed.",
-        "silverstripe-australia/gridfieldextensions": "This module is compatible and extends the components of the gridfieldextensions module."
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.5"
     },
-    "extra"      : {
-        "installer-name": "gridfield-utils",
-        "branch-alias"  : {
-            "dev-master": "0.4.x-dev"
-        }
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    },
+    "replace": {
+        "milkyway-multimedia/ss-gridfield-utils": "*"
     }
 }

@@ -10,9 +10,11 @@ $SearchForm
 
 <div class="add-existing-search-results">
 	<% if $Items %>
-		<ul class="add-existing-search-items add-existing-picker-items" data-add-link="$Link('add')" data-undo-link="$Link('undo')">
+		<ul class="list-group add-existing-search-items add-existing-picker-items" data-add-link="$Link('add')" data-undo-link="$Link('undo')">
 			<% loop $Items %>
-				<li class="add-existing-picker-item $EvenOdd"><a href="#" data-id="$ID" class="add-existing-picker-item--link">$Title</a></li>
+			<li class="add-existing-picker-item list-group-item list-group-item-action $EvenOdd">
+                <a href="#" data-id="$ID" class="add-existing-picker-item--link">$Title</a>
+            </li>
 			<% end_loop %>
 		</ul>
 	<% else %>
@@ -37,7 +39,7 @@ $SearchForm
 
 			<% if $Items.NotLastPage %>
 				<li><a href="$Items.NextLink">&raquo;</a></li>
-			<%end_if %>
+			<% end_if %>
 		</ul>
 	<% end_if %>
 </div>

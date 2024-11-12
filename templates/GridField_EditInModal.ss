@@ -1,1 +1,0 @@
-<a class="edit-link ss-gridfield-modal--button" href="$Link" title="<% _t('GridFieldEditButton_ss.EDIT', 'Edit') %>"><% _t('GridFieldEditButton_ss.EDIT', 'Edit') %></a>

@@ -1,0 +1,9 @@
+---
+Name: gridfield-utils
+After: "#corefieldtypes"
+---
+SilverStripe\Core\Injector\Injector:
+  Psr\SimpleCache\CacheInterface.myCache:
+    factory: SilverStripe\Core\Cache\CacheFactory
+    constructor:
+      namespace: "gridUtils"
