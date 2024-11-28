@@ -348,6 +348,7 @@ button.add-existing-picker-item--undo .ui-button-text {
     outline: 0;
     box-shadow: none;
     border: 0;
+    margin-top:-15px;
 }
 
 .ui-dialog .ui-dialog-titlebar-close:hover {
