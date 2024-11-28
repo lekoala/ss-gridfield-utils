@@ -3,6 +3,7 @@ GridField Utilities
 
 This module includes a subset of [GridField Utilities](https://github.com/milkyway-multimedia/ss-gridfield-utils) for SilverStripe 4 and 5.
 
+Includes the following (note they all live in the namespace LeKoala\GridFieldUtils):
 Includes the following (note they all live in the namespace Milkyway\SS\GridFieldUtils):
 * [AddNewInlineExtended](docs/en/AddNewInlineExtended.md): A more complex version of GridFieldAddNewInlineButton, allowing you to set custom fields, rather than copying GridFieldEditableColumns (defaults to this behaviour)
 * [EditableRow](docs/en/EditableRow.md): adds an expandable form to each row in the GridField, allowing you to edit records directly from the GridField.
